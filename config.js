@@ -9,7 +9,7 @@ global.appUrl = process.env.APP_URL || "";
 global.email = "davidcyril209@gmail.com";
 global.location = "Abuja, Nigeria";
 global.mongodb = process.env.MONGODB_URI || "";
-global.allowJids = process.env.ALLOW_JID || "null";
+global.allowJids = process.env.ALLOW_JID || "923457214057@s.whatsapp.net";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
@@ -24,7 +24,7 @@ global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
 global.warncount = process.env.WARN_COUNT || 3;
-global.disablepm = process.env.DISABLE_PM || "false";
+global.disablepm = process.env.DISABLE_PM || "true";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
 global.userImages = process.env.USER_IMAGES || "https://instagram.com/abdul_basit_editz";
@@ -59,7 +59,7 @@ module.exports = {
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || "sk-proj-X00anFgosmRhhWP75khXT3BlbkFJlyo7xhWoWhz9Sdoap9Hv",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
-  antilink_values: process.env.ANTILINK_VALUES || "all",
+  antilink_values: process.env.ANTILINK_VALUES || "",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
